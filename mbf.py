@@ -34,7 +34,7 @@ def menu():
         if "https://www.facebook.com" in url:
             url = url.replace("https://www.facebook.com",'')
         elif "https://m.facebook.com" in url:
-            url = url.replace("https://m.facebook.com",'')
+            url = url.replace("https://mobile.facebook.com",'')
         elif "https://mbasic.facebook.com" in url:
             url = url.replace("https://mbasic.facebook.com",'')
         else:
@@ -90,7 +90,7 @@ def cek():
     os.system('clear')
     banner.banner()
     print("> How to get cookie : ")
-    print("https://m.facebook.com/story.php?story_fbid=240261960743816&id=100042800416881")
+    print("https://m.facebook.com/story.php?story_fbid=240261960743816&id=100080482933511")
     print()
     cookie = input("> Enter your cookie : ")
     if login.val(host, cookie):
@@ -121,11 +121,11 @@ if "__main__" == __name__:
         except FileNotFoundError:
             pass
         if len(sys.argv) == 2:
-            if sys.argv[1] == 'free':
-                host = "https://free.facebook.com{}"
+            if sys.argv[1] == 'mobile':
+                host = "https://mobile.facebook.com{}"
             else:
                 print("# Usage")
-                exit("# Use <python3 mbf.py free> for free data")
+                exit("# Use <python3 mbf.py mobile> for mobile data")
         else:
             os.system("git pull")
             host = "https://mbasic.facebook.com{}"
