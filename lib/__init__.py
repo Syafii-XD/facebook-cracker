@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-# Author: zettamus
-# Github: zettamus
-# Facebook : fb.me/zettid.1 
-# telegram : t.me/zettamus
+# Author: MrDaffa
+# Github: MrDaffa
+# Facebook : fb.me/212brm
+# YouTube :Daffa Alhamdika P
 import re
 from .session import browser
 
@@ -90,7 +90,7 @@ class  Main:
                 print(f"\r# {str(len(self.id))} retrieved ",end="")
             if len(self.id) != 0:
                 if "Lihat Hasil Selanjutnya" in str(grab):
-                    self.hashtag(grab.find("a",string="Lihat Hasil Selanjutnya")["href"].replace("https://mobile.facebook.com",""))
+                    self.hashtag(grab.find("a",string="Lihat Hasil Selanjutnya")["href"].replace("https://free.facebook.com",""))
             return self.id 
         except:
-            return self.id
+            return self.id 
