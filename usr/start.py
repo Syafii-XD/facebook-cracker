@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-# Author : zettamus
-# Github : Zettamus
-# Facebook : fb.me/zettid.1
-# Telegram : t.me/zettamus
+# Author : Mr Daffa
+# Github : MrDaffa
+# Facebook : fb.me/212brm
+# YouTube :Daffa Alhamdika P
 import os
 import json
 import requests
