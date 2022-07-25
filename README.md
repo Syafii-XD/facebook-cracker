@@ -6,8 +6,8 @@ $ pkg update && pkg upgrade
 $ pkg install python git
 $ pkg install play-audio
 $ python -m pip install --upgrade pip
-$ git clone https://github.com/AngCyber/MultiBF
-$ cd MultiBF
+$ git clone https://github.com/Syafii-XD/facebook-cracker
+$ cd facebook-cracker
 $ ls
 $ git pull
 $ pip install -r multi.tools
@@ -23,11 +23,4 @@ $ python multi.py
 > Dan juga support pada python versi 3.10.5
 > Untuk melihat versi perangkat di hp kalian ketik : uname -m
 > Untuk melihat versi python di hp kalian ketik : python --version
-```
-#### Sosial Media
-``` bash
-• WhatsApp  : Https://wa.me/qr/SKNV5EVO7S2JH1
-• Instagram : Https://www.instagram.com/Aangxd.Qwerty_
-• Donasi    : Https://saweria.co/AangXD
-• Facebook  : Https://www.facebook.com/Aang.Qwerty69
 ```
